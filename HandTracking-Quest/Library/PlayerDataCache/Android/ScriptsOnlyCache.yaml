@@ -4,6 +4,7 @@ ScriptsOnlyBuild:
     - OculusSampleFramework.HandsManager
     Oculus.VR.Editor.dll:
     - Assets.Oculus.VR.Editor.OVRPlatformToolSettings
+    - OVRConfig
     Oculus.VR.dll:
     - OVRCameraRig
     - OVRHand
@@ -44,7 +45,9 @@ ScriptsOnlyBuild:
     Unity.RenderPipelines.Universal.Runtime.dll:
     - UnityEngine.Rendering.Universal.ForwardRendererData
     - UnityEngine.Rendering.Universal.PostProcessData
+    - UnityEngine.Rendering.Universal.UniversalAdditionalCameraData
     - UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset
+    - UnityEngine.Rendering.Universal.UniversalRenderPipelineEditorResources
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     Unity.ShaderGraph.Editor.dll:
@@ -63,6 +66,8 @@ ScriptsOnlyBuild:
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
     UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
     - UnityEngine.UI.Button
     - UnityEngine.UI.CanvasScaler
     - UnityEngine.UI.ContentSizeFitter
@@ -107,14 +112,6 @@ ScriptsOnlyBuild:
     - Class: 109
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 11414}
-    - Class: 114
-      Script: {instanceID: 11416}
-    - Class: 114
-      Script: {instanceID: 11418}
-    - Class: 114
-      Script: {instanceID: 11420}
-    - Class: 114
       Script: {instanceID: 11422}
     - Class: 114
       Script: {instanceID: 11424}
@@ -125,83 +122,99 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 11430}
     - Class: 114
+      Script: {instanceID: 11432}
+    - Class: 114
       Script: {instanceID: 11434}
     - Class: 114
-      Script: {instanceID: 11572}
+      Script: {instanceID: 11436}
     - Class: 114
-      Script: {instanceID: 11606}
+      Script: {instanceID: 11438}
     - Class: 114
-      Script: {instanceID: 11734}
+      Script: {instanceID: 11442}
     - Class: 114
-      Script: {instanceID: 11760}
+      Script: {instanceID: 11580}
     - Class: 114
-      Script: {instanceID: 11852}
+      Script: {instanceID: 11614}
     - Class: 114
-      Script: {instanceID: 12036}
+      Script: {instanceID: 11742}
     - Class: 114
-      Script: {instanceID: 12610}
+      Script: {instanceID: 11768}
     - Class: 114
-      Script: {instanceID: 12678}
+      Script: {instanceID: 11860}
     - Class: 114
-      Script: {instanceID: 12716}
+      Script: {instanceID: 12044}
     - Class: 114
-      Script: {instanceID: 12760}
+      Script: {instanceID: 12618}
     - Class: 114
-      Script: {instanceID: 13062}
+      Script: {instanceID: 12628}
     - Class: 114
-      Script: {instanceID: 13130}
+      Script: {instanceID: 12686}
     - Class: 114
-      Script: {instanceID: 13330}
+      Script: {instanceID: 12724}
     - Class: 114
-      Script: {instanceID: 13378}
+      Script: {instanceID: 12768}
     - Class: 114
-      Script: {instanceID: 13446}
+      Script: {instanceID: 12924}
     - Class: 114
-      Script: {instanceID: 13574}
+      Script: {instanceID: 13070}
     - Class: 114
-      Script: {instanceID: 13818}
+      Script: {instanceID: 13138}
     - Class: 114
-      Script: {instanceID: 13948}
+      Script: {instanceID: 13338}
     - Class: 114
-      Script: {instanceID: 13980}
+      Script: {instanceID: 13386}
     - Class: 114
-      Script: {instanceID: 14340}
+      Script: {instanceID: 13454}
     - Class: 114
-      Script: {instanceID: 14420}
+      Script: {instanceID: 13582}
     - Class: 114
-      Script: {instanceID: 14446}
+      Script: {instanceID: 13826}
     - Class: 114
-      Script: {instanceID: 14602}
+      Script: {instanceID: 13956}
     - Class: 114
-      Script: {instanceID: 14638}
+      Script: {instanceID: 13988}
+    - Class: 114
+      Script: {instanceID: 14348}
+    - Class: 114
+      Script: {instanceID: 14428}
+    - Class: 114
+      Script: {instanceID: 14454}
+    - Class: 114
+      Script: {instanceID: 14610}
     - Class: 114
       Script: {instanceID: 14646}
     - Class: 114
-      Script: {instanceID: 14756}
+      Script: {instanceID: 14654}
     - Class: 114
-      Script: {instanceID: 15020}
+      Script: {instanceID: 14764}
     - Class: 114
-      Script: {instanceID: 15090}
+      Script: {instanceID: 15028}
     - Class: 114
-      Script: {instanceID: 15240}
+      Script: {instanceID: 15098}
     - Class: 114
-      Script: {instanceID: 15376}
+      Script: {instanceID: 15130}
     - Class: 114
-      Script: {instanceID: 15586}
+      Script: {instanceID: 15248}
     - Class: 114
-      Script: {instanceID: 15644}
+      Script: {instanceID: 15384}
     - Class: 114
-      Script: {instanceID: 15904}
+      Script: {instanceID: 15594}
+    - Class: 114
+      Script: {instanceID: 15652}
     - Class: 114
       Script: {instanceID: 15912}
     - Class: 114
-      Script: {instanceID: 15944}
+      Script: {instanceID: 15920}
     - Class: 114
-      Script: {instanceID: 15976}
+      Script: {instanceID: 15952}
     - Class: 114
-      Script: {instanceID: 16104}
+      Script: {instanceID: 15958}
     - Class: 114
-      Script: {instanceID: 16110}
+      Script: {instanceID: 15984}
+    - Class: 114
+      Script: {instanceID: 16112}
+    - Class: 114
+      Script: {instanceID: 16118}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -1847,6 +1860,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.RenderPipelines.Universal.Runtime.dll
     namespaceName: UnityEngine.Experimental.Rendering.Universal
     className: CinemachineUniversalPixelPerfect
+  - hash:
+      serializedVersion: 2
+      Hash: b00ce1f32326f1cd1160488ffd14965a
+    assemblyName: Oculus.VR.Editor.dll
+    namespaceName: 
+    className: OVRConfig
   - hash:
       serializedVersion: 2
       Hash: 8b9f42d72019bde2f9fe0667762eaff3

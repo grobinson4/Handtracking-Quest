@@ -1,0 +1,25 @@
+fileFormatVersion: 2
+guid: 1fb1c700c92c8474e946e23bae5b6b6e
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: TeX Gyre Adventor
+  fontNames:
+  - TeX Gyre Adventor
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c098a3c061f80014ea48903df035680b, type: 3}
+  - {fileID: 12800000, guid: 37d246223b314664f87e026936de2d0a, type: 3}
+  - {fileID: 12800000, guid: 528e42a72505d3142997e407e7d18f5a, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
