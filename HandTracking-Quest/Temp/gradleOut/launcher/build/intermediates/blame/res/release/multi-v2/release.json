@@ -1,0 +1,127 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\v-garyr\\Documents\\RobinsonTech\\VR\\HandTracking-Quest\\Handtracking-Quest\\HandTracking-Quest\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values_values.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\v-garyr\\Documents\\RobinsonTech\\VR\\HandTracking-Quest\\Handtracking-Quest\\HandTracking-Quest\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\ids.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "46",
+                        "endOffsets": "97"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "45",
+                        "endOffsets": "96"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\v-garyr\\.gradle\\caches\\transforms-2\\files-2.1\\214dc8886c53495a96c946be99aa83af\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "2",
+                        "startOffsets": "53",
+                        "endColumns": "41",
+                        "endOffsets": "92"
+                    },
+                    "to": {
+                        "startLines": "5",
+                        "startColumns": "4",
+                        "startOffsets": "225",
+                        "endColumns": "43",
+                        "endOffsets": "264"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\v-garyr\\Documents\\RobinsonTech\\VR\\HandTracking-Quest\\Handtracking-Quest\\HandTracking-Quest\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\strings.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "2,2",
+                        "startOffsets": "55,110",
+                        "endColumns": "53,65",
+                        "endOffsets": "106,173"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "101,157",
+                        "endColumns": "55,67",
+                        "endOffsets": "152,220"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\v-garyr\\Documents\\RobinsonTech\\VR\\HandTracking-Quest\\Handtracking-Quest\\HandTracking-Quest\\Temp\\gradleOut\\launcher\\src\\main\\res\\values\\styles.xml",
+                    "from": {
+                        "startLines": "5,2,7",
+                        "startColumns": "0,0,0",
+                        "startOffsets": "190,53,288",
+                        "endLines": "6,4,10",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "286,188,513"
+                    },
+                    "to": {
+                        "startLines": "6,8,11",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "269,369,507",
+                        "endLines": "7,10,14",
+                        "endColumns": "8,8,8",
+                        "endOffsets": "364,502,729"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\v-garyr\\Documents\\RobinsonTech\\VR\\HandTracking-Quest\\Handtracking-Quest\\HandTracking-Quest\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values-v28_values-v28.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\v-garyr\\Documents\\RobinsonTech\\VR\\HandTracking-Quest\\Handtracking-Quest\\HandTracking-Quest\\Temp\\gradleOut\\launcher\\src\\main\\res\\values-v28\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "4",
+                        "endColumns": "8",
+                        "endOffsets": "229"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "C:\\Users\\v-garyr\\Documents\\RobinsonTech\\VR\\HandTracking-Quest\\Handtracking-Quest\\HandTracking-Quest\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\values-v21_values-v21.arsc.flat",
+            "map": [
+                {
+                    "source": "C:\\Users\\v-garyr\\Documents\\RobinsonTech\\VR\\HandTracking-Quest\\Handtracking-Quest\\HandTracking-Quest\\Temp\\gradleOut\\launcher\\src\\main\\res\\values-v21\\styles.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "0",
+                        "startOffsets": "53",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "153"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "3",
+                        "endColumns": "8",
+                        "endOffsets": "154"
+                    }
+                }
+            ]
+        }
+    ]
+}
