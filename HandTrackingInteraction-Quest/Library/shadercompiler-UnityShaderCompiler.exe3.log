@@ -4,3 +4,5 @@ Cmd: compileComputeKernel
   api=4 insize=18731 outsize=8873 ok=1
 Cmd: compileComputeKernel
   api=4 insize=5032 outsize=3708 ok=1
+
+Quitting shader compiler process
